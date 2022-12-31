@@ -1,12 +1,55 @@
 body{
     color: #F2E7D5;
     margin: 0;
+    font-family: Georgia ;
+    background-color: #6D9886;
 }
 
-h1{
-    margin-top: 0;
-}
-
-div{
+.top-index{
     background-color: #393E46;
+    text-align: center;
+}
+
+/*TOP NAVBAR*/
+.top-navbar{
+    text-align: right;
+    margin-right: 10em;
+    padding: 5em;
+}
+
+.top-navbar a:any-link{
+    text-decoration: none;
+    margin-left: 2em;
+}
+
+.top-navbar a:link{
+    color: #F2E7D5;
+}
+
+.top-navbar a:visited{
+    color: #F2E7D5;
+}
+
+.top-navbar a:hover{
+    color: #F7F7F7;
+}
+
+/* Mountain */
+.nature{
+    padding-top: 10em;
+    text-align: center;
+}
+
+.cloud1{
+    display: block;
+    padding-left: 35%;
+}
+
+.cloud2{
+    display: block;
+    padding-left: 60%;
+}
+
+.mountain{
+    margin-top: 0;
 }
