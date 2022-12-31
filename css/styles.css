@@ -34,7 +34,6 @@ body{
 
 
 /* Mountain */
-
 .top-intro{
     background-color: #393E46;
     text-align: center;
@@ -46,6 +45,7 @@ body{
     margin: 0 auto;
     max-height: 100%;
     max-width: 100%;
+    border: none;
 }
 
 .cloud1{
@@ -61,4 +61,6 @@ body{
 .mountain{
     max-width: 100%;
     padding-bottom: 0;
+    margin-bottom: 0;
+    margin-bottom: -3.5px;
 }
