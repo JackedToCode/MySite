@@ -5,10 +5,23 @@ body{
     background-color: #6D9886;
 }
 
+h2{
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+hr{
+    border-color: #393E46;
+    margin: 3rem auto;
+    width: 5%;
+    border-style: none;
+    border-top: dotted 0.5rem;
+}
+
 
 /*TOP NAVBAR*/
 .navpic{
-    height: 80px;
+    height: 5rem;
     margin-right: 50em;
 }
 
@@ -18,21 +31,24 @@ body{
     text-align: center;
 }
 
-.top-navbar a:any-link{
+.top-navbar a{
     vertical-align: 25px;
+    margin: 0 2rem;
+}
+
+a:any-link{
     text-decoration: none;
-    margin-left: 2em;
 }
 
-.top-navbar a:link{
+a:link{
     color: #F2E7D5;
 }
 
-.top-navbar a:visited{
+a:visited{
     color: #F2E7D5;
 }
 
-.top-navbar a:hover{
+a:hover{
     color: #F7F7F7;
 }
 
@@ -47,6 +63,11 @@ p{
 
 
 /* Mountain */
+.imjack{
+    margin-top: 30px;
+    height: 6rem;
+}
+
 .top-intro{
     background-color: #393E46;
     text-align: center;
@@ -88,6 +109,65 @@ p{
     margin-top: 2em;
 }
 
+
+
+.footer-link{
+    margin: 1em 2em;
+}
+
+/* Skills */
+
+.skill-row{
+    margin: 6.25rem auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+    
+}
+
 .htmlImage{
-    height: 80px;
+    width: 25%;
+    float: left;
+    margin-right: 5rem;
+}
+
+.cssImage{
+    width: 25%;
+    float: right;
+    margin-left: 5rem;
+}
+
+/* Bottom */
+.btn {
+    border-radius: 9px;
+    font-family: Arial;
+    color: #F2E7D5;
+    font-size: 20px;
+    background: #393E46;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #6D9886;
+    text-decoration: none;
+  }
+
+.contact-me{
+    margin: 4rem auto;
+}
+
+.contact-me p{
+    margin: 0 auto 4rem auto;
+}
+
+.bottom-container{
+    background-color: #393E46;
+    color: #F2E7D5;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.bottom-container p{
+    margin-bottom: 0;
 }
