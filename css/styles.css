@@ -79,7 +79,16 @@ p{
 }
 
 .imjack{
-    height: 6rem;
+    width: 70%;
+    align-self: center;
+}
+
+.cloud-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.7rem;
+    width: 100%;
 }
 
 .nature{
@@ -96,14 +105,12 @@ p{
 .cloud1{
     display: flex;
     align-self: flex-start;
-    display: block;
-    width: 35%;
+
 }
 
 .cloud2{
     display: flex;
     align-self: flex-end;
-    width: 35%;
 }
 
 .mountain{
@@ -136,21 +143,26 @@ p{
 
 /* Skills */
 
+.skills{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 2rem;
+}
+
 .skill-row{
-    margin: 6.25rem auto;
-    width: 35%;
-    text-align: left;
-    line-height: 1.5;
-    
+    display: flex;
+    gap: 2rem;
 }
 
 .htmlImage{
+    align-self: center;
+    width: 35%;
 }
 
 .cssImage{
-    width: 25%;
-    float: right;
-    margin-left: 5rem;
+    align-self: center;
+    width: 35%;
 }
 
 /* Bottom */
@@ -178,16 +190,16 @@ p{
 }
 
 .bottom-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
     background-color: #393E46;
     color: #F2E7D5;
     padding-top: 2rem;
-    padding-bottom: 2rem;
 }
 
-.bottom-container p{
-    margin-bottom: 0;
-}
-
-.footer-link{
-    margin: 1em 2em;
+.social{
+    display: flex;
+    gap: 6rem;
 }
